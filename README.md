@@ -1,26 +1,23 @@
-<img align="right" width="40%" src="http://pydata.org/amsterdam2016/static/images/pydata-logo-amsterdam-2016.png" alt="PyData Amsterdam Logo">
-# PyData Tutorial
+![](http://conf.dato.com/2016/emea/wp-content/uploads/dss16_EU_wideheader.png)
 
-This repository is created with the intention for people who will attend the PyData tutorial to have a look at the code prior to the tutorial. This OpenCV tutorial is based on version 3.0.0
+This repository was created for people who will attend the [Data Science Summit](http://conf.dato.com/2016/emea/) tutorial. This tutorial is based on OpenCV version 3.1.0.
 
-# Building a Face Recognition System with OpenCV in the blink of an Eye
+To install OpenCVP please follow the instructions in the markdown file "Installation Steps for OpenCV 3.1.0"
 
-<img align="right" width="30%" src="http://www.qualogy.com/wp-content/themes/qua/images/q_logo.png" alt="Qualogy Logo">
+# Face Recognition with OpenCV and TensorFlow
 
-This notebook was created for the tutorial during the PyData Meeting:
-- Author: <font color='red'>Rodrigo Agundez from Qualogy Solutions</font>
-- Place: Amsterdam, Papaverweg 265
-- Date: Saturday, March 12, 2016
-- Time: 16:15
-- Room: 2
+- Author: Rodrigo Agundez from Qualogy
+- Place: Jerusalem, International Convention Center
+- Date: Sunday, June 5, 2016
+- Time: 10:00
+- Room: 1
 
-The goal of this tutorial is to build a simple face recognition system with the use of the opencv library. This tutorial is separated in three parts:
-- Basic manipulation techniques of images and video using OpenCV.
-- Building our data set of images.
-- Training the classification model provided by OpenCV.
-- Recognize never seen images by the model.
-- Recognize faces from a live video feed.
-- Try to trick the face recognition to classify other types of objects.
+The goal of this tutorial is to build a simple face recognition system with the use of the opencv library. This tutorial is separated in four parts:
+
+- Manipulation of images and videos using OpenCV.
+- Face Detection and Buildig the dataset
+- Building the recognition model
+- Recognize faces in a live video feed
 
 ### A bit about OpenCV
 OpenCV is an open source computer vision and machine learning software library.
@@ -46,11 +43,4 @@ The library includes a comprehensive set of both classic and state-of-the-art co
 </ul>
 </div>
 
-It has C++, C, Python, Java and MATLAB interfaces and supports Windows, Linux, Android and Mac OS. 
-
-### Requiered Packages for this tutorial
-<ul style="list-style-type:square">
-  <li>OpenCV (cv2)</li>
-  <li>Numpy</li>
-  <li>matplotlib</li>
-</ul>
+It has C++, C, Python, Java and MATLAB interfaces and supports Windows, Linux, Android and Mac OS.
