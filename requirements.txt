@@ -8,7 +8,7 @@ colorama==0.3.6
 configparser==3.5.0
 cycler==0.10.0
 decorator==4.0.9
-Django==1.9.6
+Django==1.11.28
 entrypoints==0.2.2
 functools32==3.2.3.post2
 future==0.15.2
